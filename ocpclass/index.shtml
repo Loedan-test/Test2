@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+	<title>OCP公开课</title>
+	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+	<!-- <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script> -->
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/index.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$("#sub").click(function () {
+				var name=$("#name").val();
+				var tel=$("#tel").val();
+				var email=$("#email").val();
+				if(tel=='' || email=='' || name==''){
+					alert("请将信息填写完整");
+					return false;
+				}
+			})
+		})
+
+	</script>
+
+<script>
+$(function(){
+	if($.browser.msie && $.browser.version < 15){
+		$('body').addClass('ltie10');
+	}
+	$.fn.fullpage({
+		verticalCentered: false,
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+		navigation: true,
+		navigationTooltips: ['活动时间','活动背景', '活动亮点', '活动议程', '演讲嘉宾', '关于海文']
+	});
+});
+</script>
+<body>
+
+
+<!--
+	<header>
+		
+		<div id="banner">
+			<img class="banner_logo FLEFT" src="image/banner_logo.png">
+			<ul class="banner_content FLEFT">
+				<li >
+					<a href="http://www.oracleoaec.net" class="banner_home FLEFT" target="_blank"></a>
+				</li>
+				<li >
+					<a href="http://www.oracleoaec.net/training/android" target="_blank" class="banner_item FLEFT">培训课程</a>		
+				</li>
+				<li >				
+					<a  href="#" class="banner_item FLEFT">在线课程</a>	
+				</li>
+				<li >				
+					<a href="http://www.oracleoaec.net/teacher" target="_blank" class="banner_item FLEFT">师资认证</a>	
+				</li>
+				<li >				
+					<a href="http://www.oracleoaec.net/employment" target="_blank" class="banner_item FLEFT">学生/就业</a>	
+				</li>
+				<li >				
+					<a href="http://www.oracleoaec.net/base" target="_blank" class="banner_item FLEFT">OAEC基地</a>	
+				</li>
+				<li >				
+					<a href="http://www.oracleoaec.net/about-us" target="_blank" class="banner_item FLEFT">关于我们</a>	
+				</li>			
+			</ul>			
+		</div>		
+	</header>
+		<a class="godown" href="#page2"><div class="bg1_1 "> </div></a>
+			<img class="bg1_2 " src="image/bg1_2.png">
+			<a class="bg1_btn" href=""><img class="bg1_btn_img" src="image/bg1_btn.png"><span>我要咨询</span></a>	
+-->
+
+<div class="section section1">
+	<div class="bg bg1">
+		<div class="bg_style">
+			<p class="bg1_1" >揭开月薪过万的OCP神秘面纱</p>
+			<img class="bg1_2 " src="images/bg1_time.png">
+			<img class="bg1_3 " src="images/bg1_3.png">
+			<p class="bg1_4" >地址：济南市历下区泺源大街26号中银广场2期11楼<span>限额60人！</span></p>
+			<img class="bg1_5 " src="images/bg1_text1.png">
+			<img class="bg1_6 " src="images/bg1_text2.png">
+			<img class="bg1_7 " src="images/bg1_text3.png">
+			<a href="#page2">
+				<div class="bg_bottom" ></div>
+			</a>
+				
+		</div>	
+		<div class="bg_company_style">
+			© 版权所有 2016 上海海文信息技术有限公司 | 沪ICP备06010793号
+		</div>	
+	</div>
+</div>
+
+<div class="section section2">
+	<div class="bg bg2">		
+		<div class="bg_style">
+			<img class="bg2_1 " src="images/bg2_1.png">
+			<div class="bg2_2 "><img src="images/bg2_2.png">	</div>
+			<div class="bg2_3 "><img src="images/bg2_3.png"></div>
+			<!--
+			<div class="bg2_3">
+				<ul>
+					<li class="li1">近年来计算机技术高速发展,但是能够熟练应用操作的人才却没有跟上,各大企业都求贤若渴。</li>
+					<li class="li2">也正因供需关系的不平衡，OCP专业人才的薪资极其丰厚，月薪<span>10k</span>起。</li>
+					<li lass="li3">我公司为Oracle官方认证的教育培训机构，</li>
+					<li lass="li4">通过率较其他社会培训机构高出许多，是系统学习OCP课程的不二选择。</li>
+					<li lass="li5">本次公开课即聚集了众多的<span>OCM技术大牛</span>，</li>
+					<li lass="li6">不仅为大家讲解OCP基础课程更是帮助学员制定清晰的职业规划，内容极其丰富翔实！</li>
+				</ul>
+			</div>
+			-->
+			<div class="bg2_4"></div>
+			<p class="bg2_5">注：此次公开课限额<span>60</span>人，如有意向请尽快报名</p>
+			<a href="#page6" ><div class="bg_sign "><img  src="images/bg_sign.png"></div></a>
+			<a href="#page3">
+				<div class="bg_bottom" ></div>
+			</a>
+				
+		</div>	
+		<div class="bg_company_style">
+			<p class="bg_company" >© 版权所有 2016 上海海文信息技术有限公司 | 沪ICP备06010793号</p>
+		</div>
+	</div>
+</div>
+
+<div class="section section3">
+	<div class="bg bg3">
+		<div class="bg_style">
+			<img class="bg3_1 " src="images/bg3_1.png">
+			<div class="bg3_left">
+				<div class="bg3_2">两个小时快速解决OCP入门问题</div>
+				<div class="bg3_3">OCM专业讲师讲解OCP</div>
+				<div class="bg3_4"><p>与技术大牛0距离面对面交流学习</p> <p>有什么问题当场提出当场解决</p></div>
+				<div class="bg3_5"><p>对就业进行规划分析</p> <p>以往学员毕业后大多进入500强等名企工作</p></div>
+			</div>
+			<div class="bg3_right">
+				<p class="p1">就业方向</p>
+				<p>Employment orientation</p>
+				<p>数据库管理员（DBA）、ERP运维工程师、服务器存储工程师、Oracle 技术顾问、数据库研发工程师以上职位均可入职。现在大型企业对于数据库等程序应用都有需求，但苦于OCP专业人才稀缺。所以学成以后，OCP专业技术将带你顺利进入名企、央企，前景十分可观。</p>
+			</div>
+			<a href="#page6" ><div class="bg_sign "><img src="images/bg_sign.png"></div></a>
+			<a href="#page4">
+				<div class="bg_bottom" ></div>
+			</a>
+		</div>	
+		<div class="bg_company_style">
+			<p class="bg_company" >© 版权所有 2016 上海海文信息技术有限公司 | 沪ICP备06010793号</p>
+		</div>
+	</div>
+</div>
+
+<div class="section section4">
+	<div class="bg bg4">		
+		<div class="bg_style">
+			<img class="bg4_1 " src="images/bg4_1.png">
+			<ul class="bg4_2">
+				<li>13：00-13：20&nbsp;&nbsp;&nbsp;&nbsp; 签到入场</li>
+				<li>13：20-14：30&nbsp;&nbsp;&nbsp;&nbsp; OCP快速入门讲授</li>
+				<li>14：30-15：00&nbsp;&nbsp;&nbsp;&nbsp; 资深技术大牛分享职业发展经验</li>
+				<li>15：00-15：10&nbsp;&nbsp;&nbsp;&nbsp; 茶歇时间</li>
+				<li>15：10-15：40&nbsp;&nbsp;&nbsp;&nbsp; 资深职业规划师讲解职业发展规划</li>
+				<li>15：40-16：20&nbsp;&nbsp;&nbsp;&nbsp; 互动问答环节</li>
+				<li>16：20-17：00&nbsp;&nbsp;&nbsp;&nbsp; 自由交流分享时间</li>
+			</ul>
+			<div class="bg4_3 " ><img src="images/bg4_2.png"></div>
+			<ul class="bg4_4">
+				<li><span class="red">时间：2016/11/12</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">13:00-17:00</span></li>
+				<li>地址：济南市历下区泺源大街26号中银广场2期11楼</li>
+				<li>主办方：山东海文信息技术有限公司济南分公司</li>
+				<li>电话：0531-82393768 </li>
+				<li class="phone">156-8969-7345</li>
+				<li class="phone">156-9561-9166</li>
+				<li>邮箱：bob.xiao@oracleoaec.com</li>
+			</ul>
+			<a href="#page6" ><div class="bg_sign " ><img src="images/bg_sign.png"></div></a>
+			<a href="#page5">
+				<div class="bg_bottom" ></div>
+			</a>
+		</div>
+		<div class="bg_company_style">
+			<p class="bg_company" >© 版权所有 2016 上海海文信息技术有限公司 | 沪ICP备06010793号</p>
+		</div>	
+	</div>	
+</div>
+
+<div class="section section5">
+	<div class="bg bg5">
+		<div class="bg_style">
+			<img class="bg5_1 " src="images/bg5_1.png">
+			<div class="teacher-one">
+			<div class="bg5_2 " src="images/bg5_left-h.png"></div>
+			<div class="bg5_3 " src="images/bg5_right.png"></div>
+			<div class="bg5_4 "><img src="images/bg5_2.png"></div>
+			<p class="bg5_ocp">OCP证书</p>
+			<p class="bg5_ocm">OCM证书</p>
+			<div class="bg5_5 "><img src="images/bg5_ocp.png"></div>
+			<div class="bg5_6 "><img  src="images/bg5_ocm.png"></div>
+			<div class="bg5_7 ">
+				<p>曾就职于石化盈科信息技术有限责任公司，担任Oracle DBA，有8年的大数据库管理经验，精通Unix/Linux操作系统、Oracle数据库体系结构、实例管理、备份恢复、性能调优、SQL调优、闪回、日志挖掘、数据仓库、多种ETL工具、数据迁移、故障处理、DataGuaed、Rac、GoldenGate、Timesten等技术。</p>
+				<p class="red">先后于2009年通过甲骨文OCP认证考试，2011年通过甲骨文OCM认证考试。</p>
+			</div>
+		
+	
+			<a href="#page6" ><div class="bg_sign " ><img src="images/bg_sign.png"></div></a>
+			<a href="#page6">
+				<div class="bg_bottom" ></div>
+			</a>
+		</div>
+			<div class="teacher" style=" display: none;">
+				<div class="bg5_2 " src="images/bg5_left-h.png"></div>
+				<div class="bg5_3 " src="images/bg5_right.png"></div>
+				<div class="bg5_4 "><img src="images/bg5_2-2.png"></div>
+				<p class="bg5_ocp">OCP证书</p>
+				<p class="bg5_ocm">OCM证书</p>
+				<div class="bg5_5 "><img src="images/bg5_ocp.png"></div>
+				<div class="bg5_6 "><img  src="images/bg5_ocm.png"></div>
+				<div class="bg5_7 ">
+					<p>多年互联网行业从业经验，5年以上职业规划和就业推荐工作经验，有着丰富的职场阅历和敏锐的市场洞察力。为求职者提供就业机会及企业人才服务，指导过数千名IT方向的就业者，为大家的职业发展保驾护航！
+					</p>
+				</div>
+
+
+				<a href="#page6" ><div class="bg_sign "><img src="images/bg_sign.png"></div></a>
+				<a href="#page6">
+					<div class="bg_bottom" ></div>
+				</a>
+			</div>
+		</div>
+		<div class="bg_company_style">
+			<p class="bg_company" >© 版权所有 2016 上海海文信息技术有限公司 | 沪ICP备06010793号</p>
+		</div>
+	</div>
+</div>
+
+<div class="section section6">
+	<div class="bg bg6">
+		<div class="bg_style">
+			<img class="bg5_1 " src="images/bg6_1.png">
+			<div class="fonts">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;海文集团（HWUA），全称海文信息技术有限公司，总部设在上海，是甲骨文公司的全球合作伙伴，主要从事软件开发销售、人才培养、技术咨询、技术开发等业务。是国家发展计划委员会、信息产业部、国家税务总局确定的国家规划布局内的重点软件企业，同时承担国家“十五”科技攻关项目、“863计划”、国家发改委软件产业化项目、科技部技术创新项目。</p>
+			    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到目前为止，海文集团已在全国建立7个OAEC人才产业基地，并获得当地政府大力支持；同时在上海、济南、杭州、南京、长沙等地设有20几个分中心，旨在培养符合国际IT技术标准的一流人才。海文拥有一支高水平、专业化的师资队伍，其教学水准及教学成果业内领先，已帮助上万名学员成才并成功就业于国内名企。</p>
+			</div>
+			<div class="inline">
+				<h5>在线报名</h5>
+				<!--<p><a><img src="images/name.png"></a>姓名<input></p>
+				<p><a><img src="images/phone.png"></a>电话<input></p>
+				<p><a><img src="images/mail.png"></a>邮箱<input></p>
+				<div class="take">提交</div>-->
+				<form action="receive.php" method="post">
+					<input type="hidden" value="ocpclass" name="course_name">
+					<p><a><img src="images/name.png"></a><input type="text" value="" placeholder="姓名" name="name" id="name" class="ocpform"></p>
+					<p><a><img src="images/phone.png"></a><input type="tel" value="" placeholder="电话"  name="tel" id="tel" class="ocpform"></p>
+					<p><a><img src="images/mail.png"></a><input type="email" value="" placeholder="邮箱"  name="email" id="email" class="ocpform"></p>
+					<div ><input type="submit" id="sub" value="提交" class="take" ></div>
+				</form>
+
+			</div>
+		</div>
+		<div class="bg_company_style">
+			<p class="bg_company" >© 版权所有 2016 上海海文信息技术有限公司 | 沪ICP备06010793号</p>
+		</div>	
+	</div>
+</div>
+
+	
+</body>
+</html>
